@@ -35,7 +35,7 @@ The plot below shows the results of curve fitting and NMF with 4 components.
 
 ![](curve_fitting_and_nmf_plots.png)
 
-We see excellent agreement between the intensity plots obtained through curve fitting and those obtained with NMF. Now when applying the VAE on the normalized 500nm peak, we get the following plots (also shown are the plots obtained from curve fitting for comparison):
+We see excellent agreement between the intensity plots obtained through curve fitting (a-c) and those obtained with NMF (j,m,l respectively). Now when applying the VAE on the normalized 500nm peak, we get the following plots (also shown are the plots obtained from curve fitting for comparison):
 
 ![](vae_plots.png)
 
