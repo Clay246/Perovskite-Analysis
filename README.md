@@ -27,7 +27,7 @@ NMF can be simply applied to the dataset for any given number of components; it 
 
 ### 3. Variational Autoencoder (VAE)
 
-After obtaining the intensity plots of a given peak with NMF, we can normalize each of the peaks to reduce the curve to only having two parameters that vary (FWHM and central value). The VAE can then separate these two parameters among two latent dimensions, and we can correlate the latent dimensions to the parameters of the curve.
+After obtaining the intensity plots of a given peak with NMF, we can normalize each of the peaks to reduce each peak to only having two parameters that vary (FWHM and central value). The VAE can then separate these two parameters among two latent dimensions, and we can correlate the latent dimensions to the parameters of the curve.
 
 ## Results
 
