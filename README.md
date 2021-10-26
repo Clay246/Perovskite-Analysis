@@ -39,7 +39,7 @@ We see excellent agreement between the intensity plots obtained through curve fi
 
 ![](vae_plots.png)
 
-The top row shows the plots colored according to their Z2 coordinates, which we determine (in the Jupyter Notebook) is correlated with redshifting. In the top row, we see pretty good agreement between the redshifting plot obtained with the VAE and that obtained through curve fitting; the only large difference is the VAE plot simply has a higher background level, which is chosen arbitrarily anyway. Otherwise, the VAE extracts all the relevant features and even appears remove much of the noise that obstructs the curve fitting plots. 
+The top row shows the plots colored according to their Z2 coordinates, which we determine (in the Jupyter Notebook) is correlated with redshifting. In the top row, we see pretty good agreement between the redshifting plot obtained with the VAE and that obtained through curve fitting; the only large difference is the VAE plot simply has a higher background level, which is chosen arbitrarily anyway. Otherwise, the VAE extracts all the relevant features and even appears to remove much of the noise that obstructs the curve fitting plots. 
 
 In the bottom row, we color the points according to their Z1 coordinate to get information on peak broadening. In the Jupyter Notebook, it is shown that this dimension does not correlate very well with peak broadening, so the resulting plot does not match up noteably well with the plots from curve fitting.
 
